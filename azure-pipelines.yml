@@ -32,6 +32,7 @@ steps:
 - task: Veracode@3
   inputs:
     ConnectionDetailsSelection: 'Endpoint'
+    AnalysisService: 'Veracode Upload and Scan'
     veracodeAppProfile: '$(system.teamProject)'
     version: '$(build.buildNumber)'
     filepath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
