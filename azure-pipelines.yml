@@ -19,7 +19,7 @@ steps:
     ls -la
     cd juice-shop
     ls -la
-#    npm install
+    npm install
 #    npm run build
   displayName: 'npm install and build'
 
