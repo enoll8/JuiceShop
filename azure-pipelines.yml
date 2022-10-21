@@ -15,7 +15,7 @@ steps:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
 
-- script: 
+- script: |
     ls -la
     npm install
 #    npm run build
