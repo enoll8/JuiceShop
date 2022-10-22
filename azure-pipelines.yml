@@ -18,7 +18,7 @@ steps:
 - script: |
     ls -la
     npm install
-#    npm run build
+    npm build
   displayName: 'npm install and build'
 
 - task: ArchiveFiles@2
