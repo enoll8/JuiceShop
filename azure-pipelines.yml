@@ -35,6 +35,6 @@ steps:
     AnalysisService: 'Veracode Upload and Scan'
     veracodeAppProfile: 'Juice Shop'
     version: '$(build.buildNumber)'
-    filepath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
+    filepath: '$(Build.ArtifactStagingDirectory)'
     createProfile: true
     maximumWaitTime: '360'
