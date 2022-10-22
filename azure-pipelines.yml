@@ -15,11 +15,19 @@ steps:
     versionSpec: '16.x'
   displayName: 'Install Node.js'
 
+#- script: |
+#    ls -la
+#    npm install
+#    npm build
+#  displayName: 'npm install and build'
+
 - script: |
-    ls -la
     npm install
-    npm build
-  displayName: 'npm install and build'
+  displayName: 'npm install'
+
+- script: |
+    npm run build
+  displayName: 'npm build'
 
 - task: ArchiveFiles@2
   inputs:
