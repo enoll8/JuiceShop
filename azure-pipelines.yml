@@ -33,7 +33,7 @@ steps:
   inputs:
     ConnectionDetailsSelection: 'Endpoint'
     AnalysisService: 'Veracode Upload and Scan'
-    veracodeAppProfile: '$(system.teamProject)'
+    veracodeAppProfile: 'Juice Shop'
     version: '$(build.buildNumber)'
     filepath: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     createProfile: true
